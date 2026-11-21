@@ -50,7 +50,7 @@ with Session(engine) as session:
     for k in result:
         print(k)
 
-stmt1 = text("DELETE FROM habits WHERE id>1")
+'''stmt1 = text("DELETE FROM habits WHERE id>1")
 with Session(engine) as session:
     session.execute(stmt1)
-    session.commit()
+    session.commit()'''
