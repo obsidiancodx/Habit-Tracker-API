@@ -15,4 +15,5 @@ class HabitResponse(BaseModel):
     description: Optional[str] = None
     frequency: str
     created_at: datetime
-    modek_config = ConfigDict(from_attributes=True)
+    model_config = ConfigDict(from_attributes=True)
+    
